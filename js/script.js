@@ -72,19 +72,3 @@ document.querySelector('.tabs__nav__btn:nth-child(1)').click();
 
 
 //range slider
-
-var slider = document.getElementById("myRange");
-var output = document.getElementById("value");
-
-
-output.innerHTML = slider.value;
-
-slider.oninput = function () {
-    output.innerHTML = this.value;
-}
-
-slider.addEventListener("input", function () {
-    var x = slider.value;
-    var color = 'linear-gradient(90deg, rgb(5, 178, 205)' + x + '%, rgb(199, 199, 204)' + x + '%)';
-    slider.style.background = color;
-})

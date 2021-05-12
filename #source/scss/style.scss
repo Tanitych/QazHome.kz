@@ -964,44 +964,5 @@ h6 {
   }
 }
 
-//range slider
-
 .range_block {
-  width: 250px;
-  display: flex;
-}
-.slideContainer {
-  width: 75%;
-  margin: 100px 0px 0px 0px;
-}
-
-.slider {
-  appearance: none;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(
-    90deg,
-    rgb(199, 199, 204) 60%,
-    rgb(199, 199, 204) 60%
-  );
-  outline: none;
-  opacity: 0.7;
-  transition: opacity 0.2s;
-  border-radius: 12px;
-}
-
-.slider::-webkit-slider-thumb {
-  appearance: none;
-  width: 12px;
-  height: 12px;
-  background: var(--blue);
-  border-radius: 50%;
-  cursor: pointer;
-  transition: all ease 0.3s;
-  &:hover {
-    background: var(--blue-hov);
-  }
-}
-.slideContainer p {
-  margin: 0px 0px 10px 0px;
 }
